@@ -7,6 +7,10 @@ version = "0.1.0"
 name = "blink"
 path = "src/bin/blink.rs"
 
+[[bin]]
+name = "hall_test"
+path = "src/bin/hall_test.rs"
+
 [dependencies]
 cortex-m = "0.7"
 cortex-m-rt = "0.7"
