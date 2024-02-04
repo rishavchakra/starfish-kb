@@ -5,11 +5,11 @@ version = "0.1.0"
 
 [[bin]]
 name = "blink"
-path = "src/bin/blink.rs"
+path = "tests/blink.rs"
 
 [[bin]]
 name = "hall_test"
-path = "src/bin/hall_test.rs"
+path = "tests/hall.rs"
 
 [dependencies]
 cortex-m = "0.7"
