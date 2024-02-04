@@ -11,6 +11,11 @@ path = "tests/blink.rs"
 name = "hall_test"
 path = "tests/hall.rs"
 
+[[bin]]
+[[bin]]
+name = "usb_master_test"
+path = "tests/usb_master.rs"
+
 [dependencies]
 cortex-m = "0.7"
 cortex-m-rt = "0.7"
